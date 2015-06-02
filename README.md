@@ -8,9 +8,11 @@ Uploads files to Yandex.Disk.
 
 First get an OAuth token with Yandex.Disk REST API access.
 
-You can create your own OAuth app here: https://tech.yandex.ru/oauth/
+You can create your own OAuth app here: https://oauth.yandex.ru/client/new
 
 Then see here for how to get token: https://tech.yandex.ru/oauth/doc/dg/tasks/get-oauth-token-docpage/
+
+For more info, visit this page: https://tech.yandex.ru/oauth/
 
 ### Using the app
 
