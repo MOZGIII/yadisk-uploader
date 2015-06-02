@@ -14,25 +14,31 @@ Then see here for how to get token: https://tech.yandex.ru/oauth/doc/dg/tasks/ge
 
 For more info, visit this page: https://tech.yandex.ru/oauth/
 
+### Obtaining the app
+
+```
+go get github.com/MOZGIII/yadisk-uploader/cmd/yadisk-upload
+```
+
 ### Using the app
 
 To upload to disk:
 
 ```
-yadisk-uploader -token [your OAuth token] source/file.txt disk:/remote/file.txt
+yadisk-upload -token [your OAuth token] source/file.txt disk:/remote/file.txt
 ```
 
 To upload to app directory:
 
 ```
-yadisk-uploader -token [your OAuth token] source/file.txt app:/remote/file.txt
+yadisk-upload -token [your OAuth token] source/file.txt app:/remote/file.txt
 ```
 
 ### From source
 
 ```
 git clone https://github.com/MOZGIII/yadisk-uploader.git
-cd yadisk-uploader/src
+cd yadisk-uploader/cmd/yadisk-upload
 go get ./...
 go run main.go -token [your OAuth token] source/file.txt disk:/remote/file.txt
 ```
