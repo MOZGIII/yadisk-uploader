@@ -10,14 +10,14 @@ First get an OAuth token with Yandex.Disk REST API access.
 
 You can create your own OAuth app here: https://oauth.yandex.ru/client/new
 
-Then see here for how to get token: https://tech.yandex.ru/oauth/doc/dg/tasks/get-oauth-token-docpage/
+Then see here for how to get token: https://yandex.ru/dev/oauth/doc/dg/tasks/get-oauth-token.html
 
-For more info, visit this page: https://tech.yandex.ru/oauth/
+For more info, visit this page: https://yandex.ru/dev/oauth/
 
 ### Obtaining the app
 
 ```
-go get github.com/MOZGIII/yadisk-uploader/cmd/yadisk-upload
+go install github.com/MOZGIII/yadisk-uploader/cmd/yadisk-upload@master
 ```
 
 ### Using the app
